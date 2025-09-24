@@ -31,9 +31,9 @@ async function loadStats() {
   } catch (err) {
     console.error('Stats laden fehlgeschlagen:', err);
     // Fallback-Werte (optional)
-    statElements.servers.textContent = 'NaN —/—';
-    statElements.users.textContent = 'NaN —/—';
-    statElements.commands.textContent = 'NaN —/—';
+    statElements.servers.textContent = '—/—';
+    statElements.users.textContent = '—/—';
+    statElements.commands.textContent = '—/—';
   }
 }
 
